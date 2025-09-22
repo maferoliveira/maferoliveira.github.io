@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Felix Titling;
+    background: #49030f;
+    line-height: 3;
+}
+
+.topo-voltar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #fbc3dd;
+    border-radius: 3.5px;
+    box-shadow: 0 4px 8px #0000001a;
+}
+.topo-voltar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px #00000033;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+a{
+    
+    color: #49030f;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+header {
+    background: #fbc3dd;
+    color: #49030f;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 1.5px;
+    font-size: larger;
+    font-style: italic;
+    box-shadow: #fbc3dd;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: #fbc3dd;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background: #49030f;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: none;
+}
+
+h1{
+    font-size: 1.5rem;
+    color: #e4b2b2;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #fbc3dd;
+}
+
+.foto-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: none;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 1.5px solid #530a25;
+    background: none;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.container p {
+    text-align: center;
+}
+.card{
+    width: 400px;
+    max-width: 80%;
+    margin: 0 auto;
+    background: #a3566d;
+    border-radius: 8px;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    flex: auto;
+    text-align: center;
+}

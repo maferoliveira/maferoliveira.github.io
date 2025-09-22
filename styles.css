@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Felix Titling;
+    background: #49030f;
+    line-height: 3;
+}
+
+header {
+    background: #b36d71;
+    color: #49030f;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 1.5px;
+    font-style: italic;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-style: normal;
+    background-color: #49030f;
+    color: #b36d71;
+    border-radius: 60%;
+    padding: 5px 100px;
+    display: inline-block;
+    box-shadow: 0 2px 20px #49030f; 
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #610716;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    transition: color 0.1s ease;
+}
+
+nav ul li a:hover {
+    color: #ecc9c9;
+    box-decoration-break: clone;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px #e4b2b2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.8);
+}
+
+section {
+    padding: 0.3rem;
+    margin: 2rem;
+    background: #49030f;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #49030f;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    box-shadow: #ecc9c9;
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: none;
+}
+
+.foto-perfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    gap: 1rem;
+    object-fit: cover;
+    background: none;
+    box-shadow: 0 0.5px 20px #b36d71; 
+}
+
+.sobre-informacoes {
+    flex: 1;
+}

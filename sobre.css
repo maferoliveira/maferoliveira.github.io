@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Felix Titling;
+    background: #49030f;
+    line-height: 3;
+}
+.topo-voltar {
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 10px;
+    background-color: #fbc3dd;
+    border-radius: 3.5px;
+    box-shadow: 0 4px 8px #0000001a;
+}
+.topo-voltar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px #00000033;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a{
+    color: #49030f;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header {
+    position: relative;
+    background: #fbc3dd;
+    color: #49030f;
+    margin: 1.5px;
+    box-shadow: #fbc3dd;
+    font-size: 2.5rem; 
+    align-items: center;    
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+
+}
+header h2{
+    color: #49030f;
+    padding: 1rem 0;
+    margin: 1.5px;
+    font-style: normal;
+    box-shadow: #fbc3dd;
+    font-size: 2.5rem;
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  flex-direction: column;
+}
+h1 {
+    flex: 1;
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  flex-direction: column;
+    font-size: 1.5rem;
+    color: #e4b2b2;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.foto-dump {
+    position: absolute;     
+    top: 0;                 
+    right: 0;               
+    width: 500px;           
+    height: 300;            
+    object-fit: contain;      
+    border: none;             
+    border-radius: 0;      
+    background: none;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(56, 2, 25);
+    text-decoration: none;
+    transition: color 0.1s ease;
+}
+
+nav ul li a:hover {
+    color: #49030f;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgb(79, 9, 28);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background: #49030f;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: none;
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: none;
+}
+
+.foto-perfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 1.5px solid #530a25;
+    background: none;
+}
+
+
+p {
+    color: #410622;
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.card{
+    width: 400px;
+    max-width: 50%;
+    margin: 0 auto;
+    background: #a3566d;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgb(59, 3, 18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+}
+
+.cardd {
+    background: #49030f;
+    border-radius: 3px;
+    padding: 1rem;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
